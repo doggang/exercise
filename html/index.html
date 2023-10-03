@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../img/titleImg.png" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="../css/body.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/calendar.css">
+    <title>마이캘린더</title>
+</head>
+<body>
+    <header id="header">
+        <div id="header_left">
+            <a href="#">
+                <img id="header_left_img" src="../img/calendar.png">
+            </a>
+        </div>
+        <div id="header_right">
+            <img id="header_right_more" src="../img/more.png" alt="">
+            <!-- 내 사진 넣을 예정 -->
+            <img id="header_right_my" src="../img/img.png" alt="">
+        </div>
+    </header>
+
+    <div id="calendar_wrap">
+        <table class="Calendar">
+            <thead>
+                <tr>
+                    <td onClick="prevCalendar();" style="cursor:pointer;">&#60;</td>
+                    <td colspan="5">
+                        <span id="calYear"></span>년
+                        <span id="calMonth"></span>월
+                    </td>
+                    <td onClick="nextCalendar();" style="cursor:pointer;">&#62;</td>
+                </tr>
+                <tr id="week">
+                    <td>일</td>
+                    <td>월</td>
+                    <td>화</td>
+                    <td>수</td>
+                    <td>목</td>
+                    <td>금</td>
+                    <td>토</td>
+                </tr>
+            </thead>
+
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+</body>
+<script src="../js/script.js"></script>
+<script src="../js/calendar.js"></script>
+</html>

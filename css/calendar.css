@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+
+        #calendar_wrap{
+            display: flex;
+            position: relative;
+            left: 0;
+            justify-content: center;
+            background-color : white;
+            height: auto;
+            width: 65%;
+            height: 100%;
+            border-radius:5px;
+            box-shadow:0px 40px 30px -20px rgba(0,0,0,0.3);
+        }
+
+        td {
+            text-align: center;
+            /*width: 100px;*/
+            height: 100px;
+        }
+
+        .Calendar {
+            text-align: center;
+            width: auto;
+        }
+
+        thead{
+            width: auto;
+        }
+        tbody{
+            width: auto;
+        }
+        tr{
+            width: auto;
+        }
+        td{
+            width: auto;
+        }
+
+        .Calendar>thead>tr:first-child>td {
+            font-family: 'Questrial', sans-serif;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+
+        .Calendar>thead>tr:last-child>td {
+            font-family: 'Questrial', sans-serif;
+            font-weight: 600;     
+        }
+
+        .Calendar>tbody>tr>td>p {
+            font-family: 'Montserrat', sans-serif;
+            width: 8vw;
+            height: 8vh;
+            border-radius: 45px;
+            transition-duration: .2s;
+            line-height: 8vh;
+            margin: 2.5px;
+            display: block;
+            text-align: center;
+        }        
+
+        #week>td{
+            height: 20px !important ;
+        }
+
+        .pastDay {
+            color: lightgray;
+        }
+
+        .today {
+            background-color: #F5D042;            
+            color: #fff;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .futureDay {
+            background-color: #FFFFFF;
+            cursor: pointer;
+        }
+        .futureDay:hover{
+            background:#eee;
+        }
+
+        .futureDay.choiceDay,
+        .today.choiceDay {
+            background: #0A174E;
+            color: #fff;
+            font-weight: 600;
+            cursor: pointer;
+        }

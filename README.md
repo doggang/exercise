@@ -1,3 +1,5 @@
+# page url : https://doggang.github.io/exercise/
+
 2023.10.03 기획(무엇을 만들 것인가?)
 
 간단한 달력

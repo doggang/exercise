@@ -1,4 +1,4 @@
-# page url : https://doggang.github.io/exercise/
+# page url : https://doggang.github.io/exercise/index
 
 2023.10.03 기획(무엇을 만들 것인가?)
 
